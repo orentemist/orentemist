@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
   display: "swap",
 });
-
+const SITE_URL = "https://orentemist.online";
 export const metadata = {
   metadataBase: new URL("https://orentemist.online"),
 
