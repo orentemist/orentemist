@@ -30,21 +30,41 @@ export const metadata = {
   applicationName: "ORENTEMIST",
 
   keywords: [
-    "ORENTEMIST",
-    "ORENTEMIST perfume",
-    "perfume Nigeria",
-    "buy perfume Nigeria",
-    "premium perfume Nigeria",
-    "luxury perfume Nigeria",
-    "fragrances Nigeria",
-    "menapos;s perfume",
-    "womenapos;s perfume",
-    "unisex perfume",
-  ],
 
+    "ORENTEMIST",
+
+    "ORENTEMIST perfume",
+    "perfume in ilorin",
+    "perfume in kwarapoly",
+    "perfume in unilorin",
+
+    "buy perfume in Nigeria",
+
+    "perfume shop Nigeria",
+
+    "perfumes in Nigeria",
+
+    "men's perfume",
+
+    "women's perfume",
+
+    "unisex perfume",
+
+    "luxury perfumes",
+
+    "premium fragrances",
+
+    "perfume oils",
+
+    "gift sets",
+
+    "fragrances for men and women",
+
+  ],
   authors: [
     {
       name: "ORENTEMIST",
+       url: SITE_URL,
     },
   ],
 
