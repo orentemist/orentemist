@@ -7,7 +7,7 @@ import { useParams, useRouter } from "next/navigation";
 
 const API_URL = (
   process.env.NEXT_PUBLIC_API_URL ||
-  "https://perfume-backend-sbvd.onrender.com/api"
+  "https://orentemist-backend.onrender.com/api"
 ).replace(/\/$/, "");
 
 const MIN_REVIEW_LENGTH = 5;

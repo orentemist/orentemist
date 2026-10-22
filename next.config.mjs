@@ -3,7 +3,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "perfume-backend-sbvd.onrender.com",
+        hostname: "orentemist-backend.onrender.com",
       },
       {
         protocol: "https",

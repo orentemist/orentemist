@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const API_URL = (
   process.env.NEXT_PUBLIC_API_URL ||
-  "https://perfume-backend-sbvd.onrender.com/api"
+  "https://orentemist-backend.onrender.com/api"
 ).replace(/\/$/, "");
 
 function getImageUrl(image) {

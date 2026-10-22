@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL ||
-  "https://perfume-backend-sbvd.onrender.com/api";
+  "https://orentemist-backend.onrender.com/api";
 
 export default function SignupPage() {
   const router = useRouter();
