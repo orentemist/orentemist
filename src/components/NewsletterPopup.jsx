@@ -909,6 +909,7 @@ export default function NewsletterPopup() {
           width: 100%;
 
           height: 54px;
+          font-size: 16px;
 
           box-sizing: border-box;
 

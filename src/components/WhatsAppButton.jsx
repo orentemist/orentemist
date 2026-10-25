@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "2347045895896";
+const WHATSAPP_NUMBER = "2349032452717";
 
 const DEFAULT_MESSAGE =
   "Hi ORENTEMIST, I’d like some help with my order.";

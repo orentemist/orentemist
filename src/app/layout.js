@@ -32,7 +32,10 @@ export const metadata = {
   keywords: [
 
     "ORENTEMIST",
-
+    "orentemist",
+    "orente",
+    "mist",
+    "Orente",
     "ORENTEMIST perfume",
     "perfume in ilorin",
     "perfume in kwarapoly",
@@ -147,6 +150,33 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+
+        <script
+
+          type="application/ld+json"
+
+          dangerouslySetInnerHTML={{
+
+            __html: JSON.stringify({
+
+              "@context": "https://schema.org",
+
+              "@type": "Organization",
+
+              name: "ORENTEMIST",
+
+              url: "https://www.orentemist.online",
+
+              logo: "https://www.orentemist.online/logo.png",
+
+            }),
+
+          }}
+
+        />
+
+      </head>
       <body className="min-h-full flex flex-col">
         <PWARegister />
         <MaintenanceGate>

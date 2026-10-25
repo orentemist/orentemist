@@ -1812,7 +1812,7 @@ export default function CheckoutPage() {
 <section className="rounded-3xl border border-black/10 bg-white p-5 sm:p-7">
   <div className="mb-5">
     <h2 className="text-xl font-semibold">
-      Message to admin{" "}
+      Message to orentemist{" "}
       <span className="text-sm font-normal text-gray-400">
         (optional)
       </span>
@@ -1838,7 +1838,7 @@ export default function CheckoutPage() {
     rows={4}
     maxLength={2000}
     placeholder="Add any instructions for your order..."
-    className="w-full resize-y rounded-xl border border-black/10 bg-white px-4 py-3.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-black"
+    className="w-full resize-y rounded-xl border border-black/10 bg-white px-4 py-3.5 text-base sm:text-sm outline-none transition placeholder:text-gray-400 focus:border-black"
   />
 
   <p className="mt-2 text-right text-xs text-gray-400">
